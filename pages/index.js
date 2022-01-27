@@ -43,7 +43,7 @@ export default function PaginaInicial() {
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     backgroundColor: appConfig.theme.colors.primary[500],
-                    backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+                    backgroundImage: 'url(https://images.alphacoders.com/111/1113006.jpg)',
                     backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
                 }}
             >
@@ -58,8 +58,9 @@ export default function PaginaInicial() {
                         },
                         width: '100%', maxWidth: '700px',
                         borderRadius: '5px', padding: '32px', margin: '16px',
-                        boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-                        backgroundColor: appConfig.theme.colors.neutrals[700],
+                        // boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
+                        backgroundColor: '#781e1e99',
+                        boxShadow: '0px 0px 16px 8px rgb(231 47 35 / 78%)',
                     }}
                 >
                     {/* Formulário */}
@@ -114,7 +115,7 @@ export default function PaginaInicial() {
                                     textColor: appConfig.theme.colors.neutrals[200],
                                     mainColor: appConfig.theme.colors.neutrals[900],
                                     mainColorHighlight: appConfig.theme.colors.primary[500],
-                                    backgroundColor: appConfig.theme.colors.neutrals[800],
+                                    backgroundColor: appConfig.theme.colors.neutrals[900],
                                 },
                             }}
                         />
@@ -139,11 +140,9 @@ export default function PaginaInicial() {
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
-                            maxWidth: '200px',
+                            maxWidth: '250px',
                             padding: '16px',
-                            backgroundColor: appConfig.theme.colors.neutrals[800],
-                            border: '1px solid',
-                            borderColor: appConfig.theme.colors.neutrals[999],
+                            backgroundColor: appConfig.theme.colors.neutrals[900],                            
                             borderRadius: '10px',
                             flex: 1,
                             minHeight: '240px',
